@@ -1,1 +1,155 @@
-/* Start coding here */
+body {
+	background-color: #f6f6fb;
+	font-family: sans-serif;
+}
+
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 93%;
+	padding: 16px 32px;
+	margin: 16px 24px;
+	border-radius: 30px;
+	background-color: white;
+}
+
+.nav-logo {
+	font-size: 1.75rem;
+	font-weight: 700;
+	color: #111;
+	text-decoration: none;
+}
+.nav-links {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-weight: 550;
+}
+
+.nav-links a {
+	color: #333;
+	text-decoration: none;
+}
+
+#home-underline {
+	color: #5e44ff;
+	text-decoration: underline;
+}
+
+.change-color-product {
+	color: #6c47ff;
+}
+.nav-logo span {
+	color: #5e44ff;
+}
+
+.title-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title-1 {
+	margin-top: 12vh;
+	color: #6c47ff;
+	padding: 10px 20px 10px 20px;
+	background-color: #e5e2f9;
+	border-radius: 20px;
+	font-weight: 600;
+}
+
+.contact {
+	/* background-color: #eeeaff; */
+	padding: 60px 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.contact-box {
+	background-color: #ffffff;
+	border-radius: 20px;
+	padding: 48px 40px;
+	width: 100%;
+	max-width: 560px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.contact-box h2 {
+	text-align: center;
+	font-size: 1.7rem;
+	font-weight: 700;
+	color: #111;
+	margin-bottom: 4px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.form-group label {
+	font-size: 0.85rem;
+	color: #333;
+	font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 12px 16px;
+	font-size: 0.9rem;
+	color: #333;
+	background-color: #fafafa;
+	outline: none;
+	font-family: inherit;
+}
+
+.form-group textarea {
+	height: 110px;
+	resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+	border-color: #6c47ff;
+}
+
+.btn-full {
+	width: 100%;
+	padding: 14px;
+	margin-top: 4px;
+}
+
+.footer {
+	/* background-color: #eeeaff; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 40px;
+	border-top: 1px solid #ddd8f5;
+	font-size: 0.82rem;
+	color: #888;
+}
+
+.footer-links {
+	display: flex;
+	gap: 24px;
+}
+
+.footer-links a {
+	text-decoration: none;
+	color: #888;
+}
+
+.footer-links a:hover {
+	color: #6c47ff;
+}
