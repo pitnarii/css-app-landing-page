@@ -33,10 +33,12 @@ body {
 
 .nav-links a {
 	color: #333;
+	text-decoration: none;
 }
 
 #home-underline {
 	color: #5e44ff;
+	text-decoration: underline;
 }
 
 .change-color-product {
@@ -48,7 +50,17 @@ body {
 
 .title-header {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
+}
+
+.title-1 {
+	margin-top: 12vh;
+	color: #6c47ff;
+	padding: 10px 20px 10px 20px;
+	background-color: #e5e2f9;
+	border-radius: 20px;
+	font-weight: 600;
 }
 
 .contact {
