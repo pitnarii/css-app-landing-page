@@ -19,5 +19,5 @@ In this project, we worked on a landing page for Acme with html and css.
 
 ## Screenshots
 
-![App Screenshot](https://dummyimage.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](screenshot/Landing_page_01.png)
 
