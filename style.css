@@ -172,7 +172,7 @@ body {
 	border-radius: 20px;
 	padding: 48px 40px;
 	width: 100%;
-	max-width: 560px;
+	max-width: 1199px;
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
@@ -221,9 +221,15 @@ body {
 }
 
 .btn-full {
-	width: 100%;
+	width: 50%;
 	padding: 14px;
 	margin-top: 4px;
+	align-self: center;
+	border-radius: 20px;
+	background-color: #111;
+	color: white;
+	font-weight: 500;
+	font-size: larger;
 }
 
 .footer {
